@@ -2,7 +2,7 @@ import AboutDiff from "../components/AboutDiff/AboutDiff";
 import AboutHero from "../components/AboutHero/AboutHero";
 import Link from "next/link";
 import { client } from "@/sanity/lib/client";
-import { Product } from "../types/product";
+import Product  from "../types/product";
 import Image from "next/image";
 
 const getProducts = async () => {
